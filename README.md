@@ -37,3 +37,10 @@ import { NavLink } from 'react-router-dom';
     </ul>
 </nav>
 ```
+
+``` javascript
+import { Link } from 'react-router-dom';
+<Link to={`/quotes/${props.id}`} className='btn'>
+    View Fullscreen
+</Link>
+```
