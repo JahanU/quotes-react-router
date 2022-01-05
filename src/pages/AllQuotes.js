@@ -39,7 +39,6 @@ export const AllQuotes = (params) => {
         <div>
             <h1>All Quotes</h1>
             <QuoteList quotes={loadedQuotes} />
-
         </div>
     )
 
